@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.head_1{
+    background: red;
+    width: 700px;
+    height: 150px;
+}
+
+.head_2{
+    background: green;
+    width: 700px;
+    height: 150px;
+}
+
+.head_3{
+    background: blue;
+    width: 700px;
+    height: 150px;
+}
+
+[class*="head_"]{
+    margin-left: 50px;
+}
+
+header{
+    padding: 25px;
+}
+
+
+main{
+    width: 775px;
+    padding-left: 75px;
+}
+
+.row{
+    width: 100%;
+    
+}
+
+[class*="k"]{
+    width: 33.3333%;
+    height: 100px;
+    float: left;
+}
+
+.kred{
+    background: red;
+}
+
+.kblue{
+    background: blue;
+}
+
+.kgreen{
+    background: green;
+}
+
+.row:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row2{
+    width: 100%;
+}
+
+.yellow{
+    background: yellow;
+    width: 100%;
+    height: 100px;
+}
+
+.row3{
+    width: 100%;
+}
+
+.gray{
+    width: 50%;
+    height: 100px;
+    background: gray;
+    float: left;
+}
+
+.black{
+    width: 50%;
+    height: 100px;
+    background: black;
+    float: left;
+}
+
+.row3:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+[class*="sq"]{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 25px;
+}
+
+footer{
+    width: 775px;
+     padding-top: 50px;
+     padding-left: 75px;
+}
+
+.sqwares{
+    width: 100%;
+    height: 250px;
+    background: aqua;
+   
+}
+
+.sqred{
+    background: red;
+
+}
+
+.sqblue{
+    background: blue;
+}
+
+.sqgreen{
+    background: green;
+ 
+}
+
+.sqwares::after{
+    content: "";
+    display: block;
+    clear: both;
+}
